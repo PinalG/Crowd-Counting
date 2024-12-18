@@ -1,1 +1,5 @@
 # Crowd-Counting
+
+This study explores the use of Wi-Fi Received Signal Strength Indicator (RSSI) data for robust crowd density estimation in dynamic indoor environments. Data were collected from four bustling urban locations, capturing both static and dynamic conditions to analyze RSSI signal variations influenced by architectural layouts and crowd movements. Three machine learning models—Random Forest, Convolutional Neural Network (CNN), XGBoost Regressor and k-Nearest Neighbors (KNN)—were evaluated for their predictive performance.
+
+The results demonstrate that Random Forest significantly outperforms CNN and KNN across all evaluation metrics, achieving the lowest Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE). Random Forest's ensemble learning approach enables it to handle the inherent noise and variability in RSSI signals, making it more robust and generalizable to unseen data. In contrast, CNN struggled in this limited data setting, while KNN's sensitivity to noise led to suboptimal performance.
