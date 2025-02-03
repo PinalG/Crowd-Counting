@@ -1,4 +1,4 @@
-# Crowd-Counting
+# Robust Crowd Density Estimation Using Wi-Fi RSSI and Machine Learning
 
 This study explores the use of Wi-Fi Received Signal Strength Indicator (RSSI) data for robust crowd density estimation in dynamic indoor environments. Data were collected from four bustling urban locations, capturing both static and dynamic conditions to analyze RSSI signal variations influenced by architectural layouts and crowd movements. Three machine learning models—Random Forest, Convolutional Neural Network (CNN), XGBoost Regressor and k-Nearest Neighbors (KNN)—were evaluated for their predictive performance.
 
